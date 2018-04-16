@@ -1,0 +1,28 @@
+{
+  "name": "evs",
+  "version": "1.0.0",
+  "description": "EVS Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StaglBagl/EVS.git"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.17.3",
+    "passport": "*",
+    "passport-jwt": "*",
+    "yarn": "^1.5.1"
+  },
+  "author": "EVS",
+  "license": "ISC"
+}
